@@ -13,6 +13,16 @@ This application requires [Node.js](https://nodejs.org/) v14+ to run.
 - Install required dependencies
     - ```npm i```
 - Start the server
-    - ```npm start``` \
+    - ```npm start``` 
 
+## Screenshots
 ![Alt text](/screenshots/vis-1.png?raw=true "Visual 1")  
+![Alt text](/screenshots/vis-2.png?raw=true "Visual 2")  
+![Alt text](/screenshots/vis-3.png?raw=true "Visual 3")  
+![Alt text](/screenshots/copy-1.png?raw=true "Copy 1")  
+![Alt text](/screenshots/copy-2.png?raw=true "Copy 2")  
+![Alt text](/screenshots/copy-3.png?raw=true "Copy 3")  
+![Alt text](/screenshots/copy-4.png?raw=true "Copy 4")  
+![Alt text](/screenshots/selfie-1.png?raw=true "Selfie 1")  
+![Alt text](/screenshots/selfie-2.png?raw=true "Selfie 2")  
+![Alt text](/screenshots/selfie-3.png?raw=true "Selfie 3")  
