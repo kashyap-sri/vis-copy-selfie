@@ -1,0 +1,40 @@
+html, body, #root {
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    outline: 0;
+}
+
+body {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px;
+    font-family: Choplin;
+    font-size: $m-size;
+    background: $body-background;
+    color: $content-color-primary;
+}
+
+button {
+    font-family: Choplin;
+    height: 50px;
+    width: 160px;
+    color: $content-color-primary;
+    background-color: $home-background;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover {
+        color: $content-color-hover;
+        transition: 0.3s;
+    }
+}
+
+button:focus {
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}

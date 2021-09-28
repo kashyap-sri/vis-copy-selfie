@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    height: 15%;
+    background-color: $home-background;
+    border-radius: 0 0 0 50px;
+
+    &__container {
+        width: 75%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        content: url('https://zolve.com/static/images/zolve_logo_w.svg');
+    }
+
+    &__nav {
+        min-width: 500px;
+        height: 35px;
+        font-size: $xs-size;
+        display: flex;
+        justify-content: space-between;
+        &-item {
+            color: $content-color-primary;
+            &:hover {
+                color: $content-color-hover;
+                transition: 0.3s;
+            }
+            &--active {
+                color: $content-color-hover;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        &__nav {
+            min-width: 200px;
+            font-size: $xs-size-mobile;
+            display: flex;
+            align-items: center;
+        }   
+
+        &__logo {
+            width: 50px;
+        }
+    }
+}

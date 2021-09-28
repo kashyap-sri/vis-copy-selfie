@@ -1,0 +1,72 @@
+.copy {
+    height: 85%;
+    width: 100%;
+    color: $content-color-secondary;
+    font-size: $s-size;
+
+    &__header {
+        text-align: center;
+    }
+
+    &__container {
+        width: 450px;
+        height: 300px;
+        margin: 0 auto;
+        position: relative;
+        top: 25%;
+    }
+
+    &__input {
+        width: 100%;
+        display: flex;
+        padding-top: 25px;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px $home-background solid;
+            padding: 5px;
+        }
+
+        &-container {
+            width: 100%;
+        }
+    }
+
+    &__icon {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        :hover {
+            color: $content-color-hover;
+            transition: 0.3s;
+        }
+    }
+
+    &__display {
+        width: 100%;
+        display: flex;
+        padding-top: 25px;
+        justify-content: center;
+    }
+
+    &__text {
+        color: $content-color-selected;
+    }
+}
+
+@media (max-width: 480px) {
+    .copy {
+        &__container {
+            width: 350px;
+            height: 300px;
+            margin: 0 auto;
+            position: relative;
+            top: 25%;
+        }
+    }
+}
