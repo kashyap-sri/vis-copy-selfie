@@ -14,6 +14,3 @@ This application requires [Node.js](https://nodejs.org/) v14+ to run.
     - ```npm i```
 - Start the server
     - ```npm start```   
-
-![Alt text](https://drive.google.com/file/d/1RrwwxkjKN5WyjpPe0gnBJc8syfxub25W/view?usp=sharing "Vis 1")
-
