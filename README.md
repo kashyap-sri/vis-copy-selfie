@@ -13,4 +13,6 @@ This application requires [Node.js](https://nodejs.org/) v14+ to run.
 - Install required dependencies
     - ```npm i```
 - Start the server
-    - ```npm start```   
+    - ```npm start``` \
+
+![Alt text](/screenshots/vis-1.png?raw=true "Visual 1")  
